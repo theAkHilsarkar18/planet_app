@@ -6,6 +6,7 @@ class HomeController extends GetxController
   List planetImgList = [
     'assets/img/sun.png',
     'assets/img/earth.png',
+    'assets/img/moon.png',
     'assets/img/mars.png',
     'assets/img/jupiter.png',
     'assets/img/sat.png',
@@ -19,6 +20,7 @@ class HomeController extends GetxController
   List distanceInLight = [
     '274 m/s²',
     '3.721 m/s²',
+    '1.62 m/s²',
     '9.689 m/s²',
     '24.79 m/s²',
     '24.79 m/s²',
@@ -31,6 +33,7 @@ class HomeController extends GetxController
   List planetName = [
     'SUN',
     'EARTH',
+    'MOON',
     'MARS',
     'JUPITER',
     'SATURN',
@@ -43,7 +46,8 @@ class HomeController extends GetxController
   List distance = [
     '150.88 million km',
     '267.64 million km',
-    '150.88 million km',
+    '384.88 million km',
+    '384.88 million km',
     '883.51 million km',
     '883.51 million km',
     '83.801 million km',
